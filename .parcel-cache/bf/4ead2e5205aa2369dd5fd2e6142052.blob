@@ -22,29 +22,36 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* -------------------------------- 
 
 xBackground 
@@ -54,6 +61,7 @@ body {
   /* this is the page background */
   background-color: #ffffff;
 }
+
 /* -------------------------------- 
 
 xPatterns
@@ -67,6 +75,7 @@ xPatterns
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
 }
+
 /* -------------------------------- 
 
 xNavigation 
@@ -75,9 +84,10 @@ xNavigation
 header {
   background-color: #19191a;
 }
+
 .cd-logo {
   /* logo box style */
-  background-color: green;
+  background-color: red;
   width: 120px;
 }
 @media only screen and (min-width: 1024px) {
@@ -85,6 +95,7 @@ header {
     width: 180px;
   }
 }
+
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
   background: #19191a;
@@ -99,12 +110,13 @@ header {
   }
   .cd-main-nav li a.selected {
     color: #ffffff;
-    box-shadow: 0 2px 0 green;
+    box-shadow: 0 2px 0 red;
   }
   .cd-main-nav li a:hover {
     color: #ffffff;
   }
 }
+
 .cd-nav-trigger span {
   /* hamburger menu */
   background-color: #ffffff;
@@ -113,6 +125,7 @@ header {
   /* upper and lower lines */
   background-color: #ffffff;
 }
+
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
   background-color: rgba(255, 255, 255, 0);
@@ -121,6 +134,7 @@ header {
   /* preserve visibility of upper and lower lines - close icon */
   background-color: white;
 }
+
 .cd-download {
   /* download button top-right visible on big devices */
   background-color: #323234;
@@ -130,13 +144,14 @@ header {
 }
 .cd-download span {
   /* tooltip */
-  background: green;
+  background: red;
   color: #ffffff;
 }
 .cd-download span::before {
   /* right arrow color */
-  border-color: green;
+  border-color: red;
 }
+
 /* -------------------------------- 
 
 xPage title 
@@ -151,6 +166,7 @@ main > h1 {
     color: #ffffff;
   }
 }
+
 /* -------------------------------- 
 
 xTypography 
@@ -161,6 +177,7 @@ h2 {
   font-family: "Open Sans", sans-serif;
   color: #19191a;
 }
+
 h1 {
   font-size: 2.4rem;
   font-weight: 300;
@@ -177,6 +194,7 @@ h1 {
     font-size: 4rem;
   }
 }
+
 h2 {
   font-weight: bold;
   text-transform: uppercase;
@@ -188,17 +206,19 @@ h2 {
     margin: 1em 0 1.4em;
   }
 }
+
 section > h2::before {
   /* number before each section title */
   color: silver;
 }
+
 p {
   font-size: 1.4rem;
   line-height: 1.4;
   color: #58585b;
 }
 p a {
-  color: green;
+  color: red;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -207,6 +227,7 @@ p a {
     line-height: 1.6;
   }
 }
+
 /* -------------------------------- 
 
 xButtons 
@@ -221,13 +242,13 @@ xButtons
   color: #ffffff;
   padding: 0.6em 2.2em;
   cursor: pointer;
-  background: green;
+  background: red;
 }
 .btn:focus {
   outline: none;
 }
 .no-touch .btn:hover {
-  background: #009a00;
+  background: #ff1a1a;
 }
 .btn.btn-success {
   background: #6fce72;
@@ -242,23 +263,25 @@ xButtons
   background: #e87a75;
 }
 .btn.btn-outline {
-  color: green;
+  color: red;
   background: transparent;
-  box-shadow: inset 0 0 0 1px green;
+  box-shadow: inset 0 0 0 1px red;
 }
 .no-touch .btn.btn-outline:hover {
   color: #ffffff;
-  background: green;
+  background: red;
 }
 @media only screen and (min-width: 768px) {
   .btn {
     font-size: 1.6rem;
   }
 }
+
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
-  color: green;
+  color: red;
 }
+
 /* -------------------------------- 
 
 xIcons 
@@ -269,6 +292,7 @@ xIcons
   width: 32px;
   height: 32px;
 }
+
 /* -------------------------------- 
 
 xForm 
@@ -284,6 +308,7 @@ input[type=text]:focus,
 select:focus {
   outline: none;
 }
+
 input[type=text] {
   padding: 0.6em 1em;
   box-shadow: inset 1px 1px rgba(0, 0, 0, 0.03);
@@ -297,9 +322,10 @@ input[type=text].alert {
   box-shadow: 0 0 6px rgba(228, 101, 95, 0.2);
 }
 input[type=text]:focus {
-  border-color: green;
-  box-shadow: 0 0 6px rgba(0, 128, 0, 0.2);
+  border-color: red;
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.2);
 }
+
 input[type=radio],
 input[type=checkbox] {
   position: absolute;
@@ -309,6 +335,7 @@ input[type=checkbox] {
   padding: 0;
   opacity: 0;
 }
+
 .radio-label,
 .checkbox-label {
   padding-left: 24px;
@@ -342,25 +369,30 @@ input[type=checkbox] {
 .radio-label::after,
 .checkbox-label::after {
   left: 3px;
-  background: url("icon-check.e36d4d8a.svg") no-repeat center center;
+  background: url("../assets/form/icon-check.svg") no-repeat center center;
   display: none;
 }
+
 .radio-label::before {
   border-radius: 50%;
 }
+
 .checkbox-label::before {
   border-radius: 3px;
 }
+
 input[type=radio]:checked + label::before,
 input[type=checkbox]:checked + label::before {
   background-color: #19191a;
   border: none;
   box-shadow: none;
 }
+
 input[type=radio]:checked + label::after,
 input[type=checkbox]:checked + label::after {
   display: block;
 }
+
 .cd-select::after {
   /* switcher arrow for select element */
   content: "";
@@ -376,9 +408,10 @@ input[type=checkbox]:checked + label::after {
   display: block;
   width: 16px;
   height: 16px;
-  background: url("icon-select.f8d42744.svg") no-repeat center center;
+  background: url("../assets/form/icon-select.svg") no-repeat center center;
   pointer-events: none;
 }
+
 select {
   position: relative;
   padding: 0.6em 2em 0.6em 1em;
@@ -389,6 +422,7 @@ select {
   -o-appearance: none;
   appearance: none;
 }
+
 /* -------------------------------- 
 
 xBasic style
@@ -399,27 +433,34 @@ xBasic style
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 1.6rem;
   font-family: "Merriweather", serif;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
 }
+
 input, textarea, select {
   font-family: "Merriweather", serif;
   font-size: 1.6rem;
 }
+
 header {
   position: fixed;
   height: 50px;
@@ -442,6 +483,7 @@ header nav {
     display: block;
   }
 }
+
 .cd-logo {
   display: inline-block;
   height: 100%;
@@ -463,6 +505,7 @@ header nav {
     margin-left: 5%;
   }
 }
+
 .cd-nav-trigger {
   display: block;
   position: absolute;
@@ -523,6 +566,7 @@ header nav {
     display: none;
   }
 }
+
 .cd-main-nav {
   position: fixed;
   top: 0;
@@ -588,6 +632,7 @@ header nav {
     display: none;
   }
 }
+
 .nav-is-visible .cd-nav-trigger span::before {
   -webkit-transform: translateY(0) rotate(-45deg);
   -moz-transform: translateY(0) rotate(-45deg);
@@ -609,13 +654,14 @@ header nav {
   -o-transform: translateY(0);
   transform: translateY(0);
 }
+
 .cd-download {
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
   width: 80px;
-  background-image: url("icon-download.43a1d2d2.svg");
+  background-image: url("../assets/icon-download.svg");
   background-position: center center;
   background-repeat: no-repeat;
   display: none;
@@ -674,6 +720,7 @@ header nav {
     right: 5%;
   }
 }
+
 main {
   width: 90%;
   max-width: 1024px;
@@ -706,6 +753,7 @@ main > h1 {
     z-index: 20;
   }
 }
+
 section {
   margin: 3em 0;
 }
@@ -759,6 +807,7 @@ section:nth-of-type(10) h2::before {
     margin-right: 0;
   }
 }
+
 /* xBranding section - basic style */
 .cd-branding .cd-box {
   margin-bottom: 1em;
@@ -810,6 +859,7 @@ section:nth-of-type(10) h2::before {
     margin-right: 3em;
   }
 }
+
 /* xColor section - basic style */
 .cd-colors li {
   text-align: center;
@@ -844,13 +894,13 @@ section:nth-of-type(10) h2::before {
   padding: 0.6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: green;
+  background: red;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
-  background: #009a00;
+  background: #ff1a1a;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
-  background: #006700;
+  background: #e60000;
 }
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
   background: #19191a;
@@ -901,6 +951,7 @@ section:nth-of-type(10) h2::before {
     margin-right: 0;
   }
 }
+
 .cd-typography .cd-box,
 .cd-buttons .cd-box,
 .cd-icons .cd-box,
@@ -915,11 +966,13 @@ section:nth-of-type(10) h2::before {
     padding: 2em;
   }
 }
+
 /* xTypography section - basic style */
 .cd-typography h1::before {
   content: "Aa - ";
-  color: green;
+  color: red;
 }
+
 .cd-buttons .cd-box:first-of-type {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -937,6 +990,7 @@ section:nth-of-type(10) h2::before {
     margin: 1em;
   }
 }
+
 /* xIcons section - basic style */
 .cd-icons li {
   display: inline-block;
@@ -945,29 +999,30 @@ section:nth-of-type(10) h2::before {
   margin: 1em;
 }
 .cd-icons .cd-icon-1 {
-  background-image: url("icon-1.f09de9b2.svg");
+  background-image: url("../assets/icons/icon-1.svg");
 }
 .cd-icons .cd-icon-2 {
-  background-image: url("icon-2.74505a7a.svg");
+  background-image: url("../assets/icons/icon-2.svg");
 }
 .cd-icons .cd-icon-3 {
-  background-image: url("icon-3.bcc4af98.svg");
+  background-image: url("../assets/icons/icon-3.svg");
 }
 .cd-icons .cd-icon-4 {
-  background-image: url("icon-4.222e6830.svg");
+  background-image: url("../assets/icons/icon-4.svg");
 }
 .cd-icons .cd-icon-5 {
-  background-image: url("icon-5.dd0f77d5.svg");
+  background-image: url("../assets/icons/icon-5.svg");
 }
 .cd-icons .cd-icon-6 {
-  background-image: url("icon-6.259c8c0a.svg");
+  background-image: url("../assets/icons/icon-6.svg");
 }
 .cd-icons .cd-icon-7 {
-  background-image: url("icon-7.efa0e026.svg");
+  background-image: url("../assets/icons/icon-7.svg");
 }
 .cd-icons .cd-icon-8 {
-  background-image: url("icon-8.ef29f1a8.svg");
+  background-image: url("../assets/icons/icon-8.svg");
 }
+
 /* xForm section - basic style */
 .cd-form input[type=text],
 .cd-form .cd-input-wrapper {
@@ -980,6 +1035,7 @@ section:nth-of-type(10) h2::before {
 .cd-form select::-ms-expand {
   display: none;
 }
+
 @-moz-document url-prefix() {
   /* hide custom arrow on Firefox */
   .cd-select::after {
@@ -989,4 +1045,3 @@ section:nth-of-type(10) h2::before {
 .no-csstransitions .cd-select::after {
   display: none;
 }
-/*# sourceMappingURL=index.fd58574d.css.map */
