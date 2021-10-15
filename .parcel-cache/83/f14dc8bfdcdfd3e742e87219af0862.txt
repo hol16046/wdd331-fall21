@@ -76,7 +76,7 @@
 109C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\object-is132785572105636226 1
 126C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\lodash\fp\takeLastWhile.js121436361000000000 0
 158C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\css-modules-loader-core\node_modules\postcss\lib\vendor.js131386303530000000 0
-92C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build132787363152055470 1
+92C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build132787379184512209 1
 128C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\resolve\test\node_path\y\ccc132785571526055917 1
 139C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\cssnano\node_modules\source-map\LICENSE131369414900000000 0
 146C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\modules\esnext.set.is-disjoint-from.js121436361000000000 0
@@ -219,7 +219,7 @@
 136C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\purgecss\node_modules\supports-color132785572077112073 1
 156C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\regenerate-unicode-properties\Script_Extensions\Khmer.js121436361000000000 0
 123C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\css-select-base-adapter132785572130770234 1
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\src\scss\style-guide.scss132787363146368989 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\src\scss\style-guide.scss132787379363865640 0
 157C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\posthtml\node_modules\posthtml-parser\.github\funding.yml121436361000000000 0
 130C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@parcel\scope-hoisting\LICENSE121436361000000000 0
 120C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\verror\lib\verror.js131382167760000000 0
@@ -239,7 +239,7 @@
 129C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\es-abstract\2017\ToBoolean.js121436361000000000 0
 172C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\stylehacks\node_modules\postcss-selector-parser\dist\selectors\pseudo.js121436361000000000 0
 114C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\lodash\fill.js121436361000000000 0
-117C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\src\scss\partials\_colors.scss132787363824743902 0
+117C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\src\scss\partials\_colors.scss132787379270367250 0
 171C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-reduce-transforms\node_modules\postcss-value-parser\lib\unit.js121436361000000000 0
 120C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\string-hash\index.js131313263500000000 0
 150C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\set-value\node_modules\extend-shallow\package.json132785572069696686 0
@@ -2049,7 +2049,7 @@
 121C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\sprintf-js\bower.json130810088230000000 0
 121C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\des.js\lib\des\ede.js121436361000000000 0
 123C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\is-fullwidth-code-point132785572115716232 1
-110C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.aaafe13f.js132787363151755657 0
+110C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.aaafe13f.js132787379184302349 0
 157C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-convert-values\node_modules\postcss\lib\vendor.js121436361000000000 0
 158C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\terser\node_modules\source-map\lib\source-map-generator.js131709648810000000 0
 146C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\loader-utils\node_modules\json5\lib\require.js131658179830000000 0
@@ -2237,7 +2237,7 @@
 115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\json-source-map132785572112498236 1
 164C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-discard-comments\node_modules\color-convert\CHANGELOG.md121436361000000000 0
 174C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-modules-extract-imports\node_modules\source-map\dist\source-map.js131511695990000000 0
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-3.bcc4af98.svg132787363150876205 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-3.bcc4af98.svg132787379183482848 0
 152C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\source-map-support\node_modules\source-map\README.md131508293880000000 0
 130C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\lodash\_castArrayLikeObject.js121436361000000000 0
 121C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\nanoid\bin\nanoid.cjs121436361000000000 0
@@ -3120,7 +3120,7 @@
 162C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\regenerate-unicode-properties\Script_Extensions\Nandinagari.js121436361000000000 0
 133C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\modules\es.parse-float.js121436361000000000 0
 144C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-colormin\node_modules\chalk\index.js121436361000000000 0
-119C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-download.43a1d2d2.svg132787363150876205 0
+119C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-download.43a1d2d2.svg132787379183262986 0
 119C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\terser\bin\uglifyjs121436361000000000 0
 122C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\form-data\package.json132785572109260255 0
 151C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\dom-serializer\node_modules\domhandler\package.json132785572127897096 0
@@ -4584,7 +4584,7 @@
 124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\es\math\expm1.js121436361000000000 0
 156C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\source-map-support\node_modules\source-map\source-map.js131508414070000000 0
 165C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-normalize-repeat-style\node_modules\postcss\lib\parser.js121436361000000000 0
-99C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\assets132787363150626357 1
+99C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\assets132787379183992538 1
 125C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\supports-color\browser.js121436361000000000 0
 147C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\expand-brackets\node_modules\is-data-descriptor132785572116495752 1
 155C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\babel-plugin-polyfill-corejs3\core-js-compat\entries.js119600064000000000 0
@@ -4784,7 +4784,7 @@
 158C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@babel\plugin-proposal-nullish-coalescing-operator\LICENSE121012626000000000 0
 123C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\type-check\lib\check.js130958412080000000 0
 136C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\source-map-js\dist\source-map.min.js121436361000000000 0
-116C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\logo-ver-1.6d6fa671.jpg132787363150446471 0
+116C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\logo-ver-1.6d6fa671.jpg132787379183462861 0
 144C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-svgo\node_modules\color-name\LICENSE130953959930000000 0
 128C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@parcel\workers\src\child.js121436361000000000 0
 114C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\lodash\once.js121436361000000000 0
@@ -5668,7 +5668,7 @@
 137C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\es-abstract\2020\UTF16DecodeString.js121436361000000000 0
 140C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\string.prototype.trimstart\.editorconfig121436361000000000 0
 131C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\css-tree\lib\syntax\node\Url.js121436361000000000 0
-110C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\logo.272a18c5.svg132787363150436481 0
+110C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\logo.272a18c5.svg132787379183452866 0
 155C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-normalize-url\node_modules\postcss\package.json132785572083548068 0
 166C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\static-extend\node_modules\is-data-descriptor\node_modules\kind-of132785572067997747 1
 132C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\request-promise-native\README.md121436361000000000 0
@@ -9112,7 +9112,7 @@
 167C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@babel\preset-modules\src\plugins\transform-tagged-template-caching132785571412783966 1
 172C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-normalize-unicode\node_modules\postcss\lib\terminal-highlight.js121436361000000000 0
 147C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-normalize-whitespace\node_modules\chalk132785572082568684 1
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-1.f09de9b2.svg132787363150866211 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-1.f09de9b2.svg132787379183272979 0
 125C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\json-schema\test\tests.js131173448000000000 0
 150C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-normalize-whitespace\node_modules\has-flag132785572082798543 1
 149C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\postcss-normalize-whitespace\node_modules\postcss132785572082128955 1
@@ -15685,7 +15685,7 @@
 146C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\caniuse-lite\data\features\domcontentloaded.js121436361000000000 0
 137C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\highlight.js\lib\languages\profile.js121436361000000000 0
 140C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\highlight.js\lib\languages\properties.js121436361000000000 0
-110C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.9626f0bb.js132787363151755657 0
+110C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.9626f0bb.js132787379184302349 0
 139C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\highlight.js\lib\languages\purebasic.js121436361000000000 0
 141C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\highlight.js\lib\languages\python-repl.js121436361000000000 0
 131C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\cssnano\node_modules\color-name132785572130105728 1
@@ -15892,7 +15892,7 @@
 138C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\modules\esnext.math.signbit.js121436361000000000 0
 138C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\es-abstract\2017\InstanceofOperator.js121436361000000000 0
 120C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\get-intrinsic\.nycrc121436361000000000 0
-118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\touch-icon-1.f2c015bb.jpg132787363150446471 0
+118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\touch-icon-1.f2c015bb.jpg132787379182983158 0
 126C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\get-intrinsic\CHANGELOG.md121436361000000000 0
 153C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\cssnano-preset-default\node_modules\postcss\README.md121436361000000000 0
 122C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\get-intrinsic\index.js121436361000000000 0
@@ -15955,7 +15955,7 @@
 115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\for-in\index.js131326325890000000 0
 138C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\modules\es.string.fontcolor.js121436361000000000 0
 125C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\follow-redirects\debug.js121436361000000000 0
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-5.dd0f77d5.svg132787363151176022 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-5.dd0f77d5.svg132787379183482848 0
 125C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\follow-redirects\index.js121436361000000000 0
 124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\follow-redirects\LICENSE121436361000000000 0
 183C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob\src\test.js121436361000000000 0
@@ -16237,7 +16237,7 @@
 138C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\escodegen\node_modules\source-map\dist132785571710098536 1
 137C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\escodegen\node_modules\source-map\lib132785571693758982 1
 149C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\escodegen\node_modules\source-map\source-map.d.ts131369414910000000 0
-111C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.fd58574d.css132787363151745668 0
+111C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.fd58574d.css132787379184302349 0
 132C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@types\node\stream\promises.d.ts132660667230000000 0
 147C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\escodegen\node_modules\source-map\source-map.js131508414070000000 0
 134C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@parcel\core\lib\PackagerRunner.js121436361000000000 0
@@ -18365,7 +18365,7 @@
 143C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\url-search-params\index.js121436361000000000 0
 131C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\url\to-json.js121436361000000000 0
 134C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\typed-array\at.js121436361000000000 0
-114C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.9626f0bb.js.map132787363152015497 0
+114C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.9626f0bb.js.map132787379184472249 0
 154C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\bl\node_modules\readable-stream\experimentalWarning.js121436361000000000 0
 136C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\typed-array\fill.js121436361000000000 0
 142C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\typed-array\find-index.js121436361000000000 0
@@ -18472,7 +18472,7 @@
 138C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\math\to-string-tag.js121436361000000000 0
 128C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\map\find.js121436361000000000 0
 132C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\map\group-by.js121436361000000000 0
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-8.ef29f1a8.svg132787363151206001 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-8.ef29f1a8.svg132787379183732690 0
 130C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\map\key-by.js121436361000000000 0
 130C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\map\key-of.js121436361000000000 0
 132C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\features\map\map-keys.js121436361000000000 0
@@ -18797,7 +18797,7 @@
 126C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\es\array\filter.js121436361000000000 0
 130C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\es\array\find-index.js121436361000000000 0
 124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\es\array\find.js121436361000000000 0
-114C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.aaafe13f.js.map132787363151945538 0
+114C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.aaafe13f.js.map132787379184462257 0
 128C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\es\array\flat-map.js121436361000000000 0
 126C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\ajv\lib\compile\resolve.js121436361000000000 0
 124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\core-js\es\array\flat.js121436361000000000 0
@@ -19463,7 +19463,7 @@
 136C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\caniuse-lite\data\features\mathml.js121436361000000000 0
 139C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\caniuse-lite\data\features\maxlength.js121436361000000000 0
 154C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\caniuse-lite\data\features\mediacapture-fromelement.js121436361000000000 0
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-4.222e6830.svg132787363151176022 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-4.222e6830.svg132787379183482848 0
 134C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\caniuse-lite\data\features\menu.js121436361000000000 0
 146C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\caniuse-lite\data\features\meta-theme-color.js121436361000000000 0
 139C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\caniuse-lite\data\features\mpeg-dash.js121436361000000000 0
@@ -20087,7 +20087,7 @@
 126C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@types\node\inspector.d.ts132660667230000000 0
 119C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@types\node\os.d.ts132660667230000000 0
 124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@types\node\package.json132785572137895806 0
-115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\favicon-1.7de86ebc.jpg132787363150456468 0
+115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\favicon-1.7de86ebc.jpg132787379183003147 0
 121C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@types\node\path.d.ts132660667230000000 0
 124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@types\node\process.d.ts132660667230000000 0
 125C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\@types\node\punycode.d.ts132660667230000000 0
@@ -21923,16 +21923,16 @@
 113C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\.bin\uuid.cmd132785572154189360 0
 113C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\.bin\uuid.ps1132785572154169367 0
 114C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\node_modules\.bin\which.ps1132785572154309265 0
-115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\favicon-2.58cfd2f7.jpg132787363150826234 0
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-2.74505a7a.svg132787363150906182 0
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-6.259c8c0a.svg132787363151206001 0
-112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-7.efa0e026.svg132787363151206001 0
-116C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-check.e36d4d8a.svg132787363150836222 0
-117C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-select.f8d42744.svg132787363150856214 0
-115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.fd58574d.css.map132787363151925553 0
-103C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.html132787363151745668 0
-116C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\logo-ver-2.ab867eea.jpg132787363150446471 0
-118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\touch-icon-2.3c99b21c.jpg132787363150446471 0
-118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\wireframe-lg.48da39ca.jpg132787363150836222 0
-118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\wireframe-sm.a947136d.jpg132787363150826234 0
-124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\assets\assets-download-file.zip132787363150566395 0
+115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\favicon-2.58cfd2f7.jpg132787379183472855 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-2.74505a7a.svg132787379183482848 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-6.259c8c0a.svg132787379183722698 0
+112C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-7.efa0e026.svg132787379183732690 0
+116C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-check.e36d4d8a.svg132787379183233005 0
+117C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\icon-select.f8d42744.svg132787379183242999 0
+115C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.fd58574d.css.map132787379184452248 0
+103C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\index.html132787379184292360 0
+116C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\logo-ver-2.ab867eea.jpg132787379182983158 0
+118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\touch-icon-2.3c99b21c.jpg132787379183003147 0
+118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\wireframe-lg.48da39ca.jpg132787379183013144 0
+118C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\wireframe-sm.a947136d.jpg132787379183003147 0
+124C:\+User files\+BYU Idaho\2021-04_WDD331\Group Project\Shared Repository\wdd331-fall21\build\assets\assets-download-file.zip132787379183902593 0
