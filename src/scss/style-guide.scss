@@ -2,12 +2,12 @@
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
 @import 'partials/colors'; // colors
+@import 'partials/typography'; // typography
 
 
 
 // fonts
-$primary-font: 'Merriweather', serif;
-$secondary-font: 'Open Sans', sans-serif;
+//moved the font variables to the partial called _typography.scss
 
 /* -------------------------------- 
 

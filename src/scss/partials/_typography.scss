@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Martel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Martel:wght@900&display=swap');
+
+$primary-font: 'Bellefair', serif;
+$secondary-font: 'Martel', sans-serif;
+
+
 h1,
 h2 {
   font-family: $secondary-font;
