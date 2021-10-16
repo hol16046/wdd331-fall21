@@ -24,29 +24,36 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* xColor section - basic style */
 .cd-colors li {
   text-align: center;
@@ -138,11 +145,13 @@ table {
     margin-right: 0;
   }
 }
+
 h1,
 h2 {
   font-family: "Martel", sans-serif;
   color: #242021;
 }
+
 h1 {
   font-size: 2.4rem;
   font-weight: 300;
@@ -159,6 +168,7 @@ h1 {
     font-size: 4rem;
   }
 }
+
 h2 {
   font-weight: bold;
   text-transform: uppercase;
@@ -170,10 +180,12 @@ h2 {
     margin: 1em 0 1.4em;
   }
 }
+
 section > h2::before {
   /* number before each section title */
   color: #769380;
 }
+
 p {
   font-size: 1.4rem;
   line-height: 1.4;
@@ -189,9 +201,11 @@ p a {
     line-height: 1.6;
   }
 }
+
 header {
   background-color: #242021;
 }
+
 .cd-logo {
   /* logo box style */
   background-color: #B1301F;
@@ -202,6 +216,7 @@ header {
     width: 180px;
   }
 }
+
 .cd-main-nav {
   /* main navigation background color - full screen on small devices */
   background: #242021;
@@ -222,6 +237,7 @@ header {
     color: #FAF3E6;
   }
 }
+
 .cd-nav-trigger span {
   /* hamburger menu */
   background-color: #FAF3E6;
@@ -230,6 +246,7 @@ header {
   /* upper and lower lines */
   background-color: #FAF3E6;
 }
+
 .nav-is-visible .cd-nav-trigger span {
   /* hide line in the center on mobile when nav is visible */
   background-color: rgba(250, 243, 230, 0);
@@ -238,6 +255,7 @@ header {
   /* preserve visibility of upper and lower lines - close icon */
   background-color: #faf3e6;
 }
+
 .cd-download {
   /* download button top-right visible on big devices */
   background-color: #3f383a;
@@ -254,6 +272,7 @@ header {
   /* right arrow color */
   border-color: #B1301F;
 }
+
 .cd-buttons .cd-box:first-of-type {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -271,6 +290,7 @@ header {
     margin: 1em;
   }
 }
+
 .btn {
   border: none;
   box-shadow: none;
@@ -314,10 +334,12 @@ header {
     font-size: 1.6rem;
   }
 }
+
 .cd-buttons .cd-box:nth-of-type(2) span {
   /* CSS class name color */
   color: #B1301F;
 }
+
 /* -------------------------------- 
 
 xBackground 
@@ -327,6 +349,7 @@ body {
   /* this is the page background */
   background-color: #FAF3E6;
 }
+
 /* -------------------------------- 
 
 xPatterns
@@ -340,6 +363,7 @@ xPatterns
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   padding: 6px;
 }
+
 /* -------------------------------- 
 
 xNavigation 
@@ -359,6 +383,7 @@ main > h1 {
     color: #FAF3E6;
   }
 }
+
 /* -------------------------------- 
 
 xTypography 
@@ -379,4 +404,3 @@ xIcons
 xForm 
 
 -------------------------------- */
-/*# sourceMappingURL=index.fd58574d.css.map */
