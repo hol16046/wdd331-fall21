@@ -28,6 +28,7 @@ a {
 
 img {
 	max-width: 100%;
+	height: 80%;
 }
 
 input, textarea, select {
@@ -443,72 +444,72 @@ section {
 
 /* xIcons section - basic style */
 
-// .cd-icons {
-// 	li {
-// 		display: inline-block;
-// 		background-position: center center;
-// 		background-repeat: no-repeat;
-// 		margin: 1em;
-// 	}
+.cd-icons {
+	li {
+		display: inline-block;
+		background-position: center center;
+		background-repeat: no-repeat;
+		margin: 1em;
+	}
 
-// 	.cd-icon-1 {
-// 		background-image: url('../assets/icons/icon-1.svg'); 
-// 	}
+	.cd-icon-1 {
+		background-image: url('../assets/icons/icon-1.svg'); 
+	}
 
-// 	.cd-icon-2 {
-// 		background-image: url('../assets/icons/icon-2.svg'); 
-// 	}
+	.cd-icon-2 {
+		background-image: url('../assets/icons/icon-2.svg'); 
+	}
 
-// 	.cd-icon-3 {
-// 		background-image: url('../assets/icons/icon-3.svg'); 
-// 	}
+	.cd-icon-3 {
+		background-image: url('../assets/icons/icon-3.svg'); 
+	}
 
-// 	.cd-icon-4 {
-// 		background-image: url('../assets/icons/icon-4.svg'); 
-// 	}
+	.cd-icon-4 {
+		background-image: url('../assets/icons/icon-4.svg'); 
+	}
 
-// 	.cd-icon-5 {
-// 		background-image: url('../assets/icons/icon-5.svg'); 
-// 	}
+	.cd-icon-5 {
+		background-image: url('../assets/icons/icon-5.svg'); 
+	}
 
-// 	.cd-icon-6 {
-// 		background-image: url('../assets/icons/icon-6.svg'); 
-// 	}
+	.cd-icon-6 {
+		background-image: url('../assets/icons/icon-6.svg'); 
+	}
 
-// 	.cd-icon-7 {
-// 		background-image: url('../assets/icons/icon-7.svg'); 
-// 	}
+	.cd-icon-7 {
+		background-image: url('../assets/icons/icon-7.svg'); 
+	}
 
-// 	.cd-icon-8 {
-// 		background-image: url('../assets/icons/icon-8.svg'); 
-// 	}
-// }
+	.cd-icon-8 {
+		background-image: url('../assets/icons/icon-8.svg'); 
+	}
+}
 
-// /* xForm section - basic style */
+/* xForm section - basic style */
 
-// .cd-form {
-// 	input[type=text],
-// 	.cd-input-wrapper {
-// 		margin: 1em;
-// 	}
+.cd-form {
+	input[type=text],
+	.cd-input-wrapper {
+		margin: 1em;
+	}
 
-// 	.cd-input-wrapper {
-// 		position: relative;
-// 		display: inline-block;
-// 	}
+	.cd-input-wrapper {
+		position: relative;
+		display: inline-block;
+	}
 
-// 	select::-ms-expand {
-//       display: none;
-// 	}
-// }
+	select::-ms-expand {
+      display: none;
+	}
+}
 
-// @-moz-document url-prefix(){
-// 	/* hide custom arrow on Firefox */
-// 	.cd-select::after {
-// 		display: none;
-// 	}
-// }
+@-moz-document url-prefix(){
+	/* hide custom arrow on Firefox */
+	.cd-select::after {
+		display: none;
+	}
+}
 
-// .no-csstransitions .cd-select::after {
-// 	display: none;
-// }
+.no-csstransitions .cd-select::after {
+	display: none;
+}
