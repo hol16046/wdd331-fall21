@@ -57,3 +57,13 @@ p {
     line-height: 1.6;
   }
 }
+
+/* xTypography section - basic style */
+
+.cd-typography {
+
+	h1::before {
+		content: 'Aa - ';
+		color: $color-1;
+	}
+}

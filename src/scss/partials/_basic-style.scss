@@ -349,71 +349,7 @@ section {
 	}
 }
 
-/* xBranding section - basic style */
 
-.cd-branding {
-
-	.cd-box {
-		margin-bottom: 1em;
-	}
-
-	img {
-		display: block;
-		width: 100%;
-	}
-
-	ul:last-of-type {
-		padding-top: .6em;
-
-		li {
-			display: inline-block;
-			margin-right: 1em;
-		}
-
-		li:nth-of-type(1) img {
-			width: 90px;
-			height: 90px;
-			border-radius: 1em;
-		}
-
-		li:nth-of-type(2) img {
-			width: 60px;
-			height: 60px;
-			border-radius: .6em;
-		}
-
-		li:nth-of-type(3) img {
-			width: 32px;
-			height: 32px;
-			border-radius: .4em;
-		}
-
-		li:nth-of-type(4) img {
-			width: 16px;
-			height: 16px;
-			border-radius: .2em;
-		}
-	}
-
-	@include MQ(S) {
-		.cd-box {
-			@include column(.49);
-			margin: 0 2% 2em 0;
-
-			&:nth-of-type(2n) {
-				margin-right: 0;
-			}
-		}
-
-		ul:last-of-type {
-			clear: left;
-
-			li {
-				margin-right: 3em;
-			}
-		}
-	}
-}
 
 
 
@@ -430,86 +366,78 @@ section {
 	} 
 }
 
-/* xTypography section - basic style */
-
-.cd-typography {
-
-	h1::before {
-		content: 'Aa - ';
-		color: $color-1;
-	}
-}
 
 
 
-/* xIcons section - basic style */
 
-.cd-icons {
-	li {
-		display: inline-block;
-		background-position: center center;
-		background-repeat: no-repeat;
-		margin: 1em;
-	}
+// /* xIcons section - basic style */
 
-	.cd-icon-1 {
-		background-image: url('../assets/icons/icon-1.svg'); 
-	}
+// .cd-icons {
+// 	li {
+// 		display: inline-block;
+// 		background-position: center center;
+// 		background-repeat: no-repeat;
+// 		margin: 1em;
+// 	}
 
-	.cd-icon-2 {
-		background-image: url('../assets/icons/icon-2.svg'); 
-	}
+// 	.cd-icon-1 {
+// 		background-image: url('../assets/icons/icon-1.svg'); 
+// 	}
 
-	.cd-icon-3 {
-		background-image: url('../assets/icons/icon-3.svg'); 
-	}
+// 	.cd-icon-2 {
+// 		background-image: url('../assets/icons/icon-2.svg'); 
+// 	}
 
-	.cd-icon-4 {
-		background-image: url('../assets/icons/icon-4.svg'); 
-	}
+// 	.cd-icon-3 {
+// 		background-image: url('../assets/icons/icon-3.svg'); 
+// 	}
 
-	.cd-icon-5 {
-		background-image: url('../assets/icons/icon-5.svg'); 
-	}
+// 	.cd-icon-4 {
+// 		background-image: url('../assets/icons/icon-4.svg'); 
+// 	}
 
-	.cd-icon-6 {
-		background-image: url('../assets/icons/icon-6.svg'); 
-	}
+// 	.cd-icon-5 {
+// 		background-image: url('../assets/icons/icon-5.svg'); 
+// 	}
 
-	.cd-icon-7 {
-		background-image: url('../assets/icons/icon-7.svg'); 
-	}
+// 	.cd-icon-6 {
+// 		background-image: url('../assets/icons/icon-6.svg'); 
+// 	}
 
-	.cd-icon-8 {
-		background-image: url('../assets/icons/icon-8.svg'); 
-	}
-}
+// 	.cd-icon-7 {
+// 		background-image: url('../assets/icons/icon-7.svg'); 
+// 	}
 
-/* xForm section - basic style */
+// 	.cd-icon-8 {
+// 		background-image: url('../assets/icons/icon-8.svg'); 
+// 	}
+// }
 
-.cd-form {
-	input[type=text],
-	.cd-input-wrapper {
-		margin: 1em;
-	}
+// /* xForm section - basic style */
 
-	.cd-input-wrapper {
-		position: relative;
-		display: inline-block;
-	}
+// .cd-form {
+// 	input[type=text],
+// 	.cd-input-wrapper {
+// 		margin: 1em;
+// 	}
 
-	select::-ms-expand {
-      display: none;
-	}
-}
+// 	.cd-input-wrapper {
+// 		position: relative;
+// 		display: inline-block;
+// 	}
 
-@-moz-document url-prefix(){
-	/* hide custom arrow on Firefox */
-	.cd-select::after {
-		display: none;
-	}
-}
+// 	select::-ms-expand {
+//       display: none;
+// 	}
+// }
 
-.no-csstransitions .cd-select::after {
-	display: none;
-}
+// @-moz-document url-prefix(){
+// 	/* hide custom arrow on Firefox */
+// 	.cd-select::after {
+// 		display: none;
+// 	}
+// }
+
+// .no-csstransitions .cd-select::after {
+// 	display: none;
+// }
