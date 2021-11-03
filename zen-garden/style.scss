@@ -1,9 +1,62 @@
-$primary-font: 'Bellefair', serif;
-$secondary-font: 'Martel', sans-serif;
+/* Variables */
 
 
-h1,
-h2 {
-  font-family: $secondary-font;
-  color:blue;
+/* Layout */
+
+// breakpoints
+$S:     768px;   
+$L:     1024px; 
+
+// media queries
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media only screen and (min-width: $S) { @content; } 
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $L) { @content; } 
+  }
+}
+
+/* Menus */
+//Footer
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+// Selection/Archives
+.archives {
+  display:none;
+}
+#design-archives nav ul{
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content: space-around;
+}
+.indicator
+// Resources
+.resources {
+  display: none;
+}
+
+// Dividing Line
+.design-selection:before, #zen-resources:before {
+  width: 100%;
+  height: 5px;
+  background-color: red;
+  display: inline-block;
+  content: "";
+}
+
+
+/* Text Styling */
+ul li {
+  list-style-type: none;
+}
+h1, h2, .select {
+  text-align: center;
+}
+#zen-summary {
+  text-align: center;
 }
