@@ -60,3 +60,80 @@ h1, h2, .select {
 #zen-summary {
   text-align: center;
 }
+
+//Hourglass shape for the text
+.supporting p,
+.preamble p{
+  text-align: justify;
+}
+
+//variables for triangle shape
+$h1: 45em;
+$w1: 28vw;
+
+//hourglass wrapper, general styles{
+.preamble p:nth-of-type(1):before,
+.preamble h3:after,
+.participation p:nth-of-type(1):before,
+.participation h3:after,
+.requirements p:nth-of-type(1):before,
+.requirements h3:after{
+  content:"";      
+  opacity: .2;
+  background-color: blue;  
+}
+//top LEFT of hourglass
+.preamble p:nth-of-type(1):before,
+.participation p:nth-of-type(1):before{
+  shape-outside: polygon(0 0, 0% 100%, 100% 100%);
+  float: left;  
+}
+//top RIGHT of hourglass
+.preamble h3:after,
+.participation h3:after{
+  shape-outside: polygon(100% 0, 0% 100%, 100% 100%);  
+  float: right;
+}
+
+//bottom LEFT of hourglass
+.requirements p:nth-of-type(1):before{
+  shape-outside: polygon(0 0, 0 100%, 100% 0);  
+  float: left;
+}
+
+//bottom RIGHT of hourglass
+.requirements h3:after{
+  shape-outside: polygon(0 0, 100% 100%, 100% 0);  
+  float: right;
+}
+
+//Dimensions of triangle wrapper
+.preamble p:nth-of-type(1):before{
+  width: $w1;
+  height: $h1 + 2em;  
+}
+
+.preamble h3:after{
+  width: $w1+3vw;
+  height: $h1 + -2em;
+}
+
+.participation p:nth-of-type(1):before{
+  width: $w1;
+  height: $h1 + -2em;  
+}
+
+.participation h3:after{
+  width: $w1 + 3vw;
+  height: $h1 + -6em;
+}
+
+.requirements p:nth-of-type(1):before{
+  width: $w1;
+  height: $h1 + 7em;  
+}
+
+.requirements h3:after{
+  width: $w1 + 3vw;
+  height: $h1 + 2em;
+}
