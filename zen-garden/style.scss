@@ -65,7 +65,8 @@ h1, h2, .select {
 //---------------Hourglass wrapping rules--------------------
 
 //HOURGLASS WRAPPER_variables for triangle shape on each side of the text
-$h1: 20em;
+$h1: 20em; // height based on typography --works non responsively at 400px viewport width
+$hh1: 90vw; //height based on viewport width --testing, it gets messed up if viewport is different than 400px wide--
 $w1: 30vw;
 
 //HOURGLASS WRAPPER_text styling for hourflass wrapping
@@ -151,7 +152,8 @@ h3{
 //HOURGLASS WRAPPER_TOP OF HOURGLASS Dimensions of triangle wrapper
 //CAUTION: THESE ONLY WORK AT A VIEWPORT WIDTH OF 400PX 
 .preamble p:nth-of-type(1):before{
-  height: $h1 + 2em;  
+  //height: $h1 + 2em;  
+  height: $hh1;
 }
 
 .preamble h3:after{
