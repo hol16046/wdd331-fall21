@@ -41,7 +41,8 @@ footer {
 }
 
 // Dividing Line
-.design-selection:before, #zen-resources:before {
+.design-selection:before, 
+#zen-resources:before {
   width: 100%;
   height: 5px;
   background-color: red;
@@ -61,79 +62,147 @@ h1, h2, .select {
   text-align: center;
 }
 
-//Hourglass shape for the text
+//---------------Hourglass wrapping rules
+
+//variables for triangle shape on each side of the text
+$h1: 20em;
+$w1: 30vw;
+
+//text styling for hourflass wrapping
+
+h3{
+  text-align: center;  
+}
+
+.preamble h3,
+.participation h3,
+.requirements h3{
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
 .supporting p,
 .preamble p{
   text-align: justify;
 }
 
-//variables for triangle shape
-$h1: 45em;
-$w1: 28vw;
+//separator between hourglass shapes
+.preamble h3:before,
+.participation h3:before,
+.requirements h3:before{
+  width: 100%;
+  height: 5px;
+  background-color: grey;
+  display: inline-block;
+  content: "";
+  margin: 0 0 2em 0;
+}
 
-//hourglass wrapper, general styles{
+//hourglass wrapper, general styles
 .preamble p:nth-of-type(1):before,
 .preamble h3:after,
 .participation p:nth-of-type(1):before,
 .participation h3:after,
 .requirements p:nth-of-type(1):before,
-.requirements h3:after{
+.requirements h3:after,
+.explanation p:nth-of-type(1):before,
+.explanation h3:after,
+.benefits p:nth-of-type(1):before,
+.benefits h3:after,
+.requirements p:nth-of-type(3):before,
+.requirements p:nth-of-type(2):after{
   content:"";      
   opacity: .2;
   background-color: blue;  
+  width: $w1;
 }
 //top LEFT of hourglass
 .preamble p:nth-of-type(1):before,
-.participation p:nth-of-type(1):before{
+.participation p:nth-of-type(1):before,
+.requirements p:nth-of-type(1):before{
   shape-outside: polygon(0 0, 0% 100%, 100% 100%);
   float: left;  
 }
 //top RIGHT of hourglass
+
 .preamble h3:after,
-.participation h3:after{
+.participation h3:after,
+.requirements h3:after{
   shape-outside: polygon(100% 0, 0% 100%, 100% 100%);  
   float: right;
 }
 
 //bottom LEFT of hourglass
-.requirements p:nth-of-type(1):before{
+.explanation p:nth-of-type(1):before,
+.benefits p:nth-of-type(1):before,
+.requirements p:nth-of-type(3):before{
   shape-outside: polygon(0 0, 0 100%, 100% 0);  
   float: left;
 }
 
 //bottom RIGHT of hourglass
-.requirements h3:after{
+.explanation h3:after,
+.benefits h3:after,
+.requirements p:nth-of-type(2):after{
   shape-outside: polygon(0 0, 100% 100%, 100% 0);  
   float: right;
 }
 
-//Dimensions of triangle wrapper
+//TOP OF HOURGLASS Dimensions of triangle wrapper
+//CAUTION: THESE ONLY WORK AT A VIEWPORT WIDTH OF 400PX 
 .preamble p:nth-of-type(1):before{
-  width: $w1;
   height: $h1 + 2em;  
 }
 
 .preamble h3:after{
-  width: $w1+3vw;
   height: $h1 + -2em;
 }
 
 .participation p:nth-of-type(1):before{
-  width: $w1;
-  height: $h1 + -2em;  
+  height: $h1 + 11em;  
 }
 
 .participation h3:after{
-  width: $w1 + 3vw;
-  height: $h1 + -6em;
+  height: $h1 + 8em;
 }
 
 .requirements p:nth-of-type(1):before{
-  width: $w1;
-  height: $h1 + 7em;  
+  height: $h1 + 10em;  
 }
 
 .requirements h3:after{
-  width: $w1 + 3vw;
-  height: $h1 + 2em;
+  height: $h1 + 7em;
 }
+
+//BOTTOM OF HOURGLASS Dimensions of triangle wrapper
+//CAUTION: THESE ONLY WORK AT A VIEWPORT WIDTH OF 400PX 
+.explanation p:nth-of-type(1):before{
+  height: $h1 + 3em;  
+}
+.explanation h3:after{
+  height: $h1 + 2em; 
+}
+.benefits p:nth-of-type(1):before{
+  height: $h1 + -9em; 
+}
+.benefits h3:after{
+  height: $h1 + -8.5em; 
+}
+.requirements p:nth-of-type(3):before{
+  height: $h1 + 3em;  
+}
+.requirements p:nth-of-type(2):after{
+  height: $h1 + 6em;  
+}
+
+//space for icon in the middle of each hourglass
+
+.preamble p:nth-of-type(3),
+.participation p:nth-of-type(3){
+  margin-bottom: 6em;
+}
+.requirements p:nth-of-type(2){
+  margin-bottom: 3em;
+}
+
+
