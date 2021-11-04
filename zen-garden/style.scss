@@ -62,13 +62,13 @@ h1, h2, .select {
   text-align: center;
 }
 
-//---------------Hourglass wrapping rules
+//---------------Hourglass wrapping rules--------------------
 
-//variables for triangle shape on each side of the text
+//HOURGLASS WRAPPER_variables for triangle shape on each side of the text
 $h1: 20em;
 $w1: 30vw;
 
-//text styling for hourflass wrapping
+//HOURGLASS WRAPPER_text styling for hourflass wrapping
 
 h3{
   text-align: center;  
@@ -86,7 +86,7 @@ h3{
   text-align: justify;
 }
 
-//separator between hourglass shapes
+//HOURGLASS WRAPPER_separator between hourglass shapes
 .preamble h3:before,
 .participation h3:before,
 .requirements h3:before{
@@ -98,7 +98,7 @@ h3{
   margin: 0 0 2em 0;
 }
 
-//hourglass wrapper, general styles
+//HOURGLASS WRAPPER_general styles
 .preamble p:nth-of-type(1):before,
 .preamble h3:after,
 .participation p:nth-of-type(1):before,
@@ -116,14 +116,14 @@ h3{
   background-color: blue;  
   width: $w1;
 }
-//top LEFT of hourglass
+//HOURGLASS WRAPPER_top LEFT of hourglass
 .preamble p:nth-of-type(1):before,
 .participation p:nth-of-type(1):before,
 .requirements p:nth-of-type(1):before{
   shape-outside: polygon(0 0, 0% 100%, 100% 100%);
   float: left;  
 }
-//top RIGHT of hourglass
+//HOURGLASS WRAPPER_top RIGHT of hourglass
 
 .preamble h3:after,
 .participation h3:after,
@@ -132,7 +132,7 @@ h3{
   float: right;
 }
 
-//bottom LEFT of hourglass
+//HOURGLASS WRAPPER_bottom LEFT of hourglass
 .explanation p:nth-of-type(1):before,
 .benefits p:nth-of-type(1):before,
 .requirements p:nth-of-type(3):before{
@@ -140,7 +140,7 @@ h3{
   float: left;
 }
 
-//bottom RIGHT of hourglass
+//HOURGLASS WRAPPER_bottom RIGHT of hourglass
 .explanation h3:after,
 .benefits h3:after,
 .requirements p:nth-of-type(2):after{
@@ -148,7 +148,7 @@ h3{
   float: right;
 }
 
-//TOP OF HOURGLASS Dimensions of triangle wrapper
+//HOURGLASS WRAPPER_TOP OF HOURGLASS Dimensions of triangle wrapper
 //CAUTION: THESE ONLY WORK AT A VIEWPORT WIDTH OF 400PX 
 .preamble p:nth-of-type(1):before{
   height: $h1 + 2em;  
@@ -174,7 +174,7 @@ h3{
   height: $h1 + 7em;
 }
 
-//BOTTOM OF HOURGLASS Dimensions of triangle wrapper
+//HOURGLASS WRAPPER_BOTTOM OF HOURGLASS Dimensions of triangle wrapper
 //CAUTION: THESE ONLY WORK AT A VIEWPORT WIDTH OF 400PX 
 .explanation p:nth-of-type(1):before{
   height: $h1 + 3em;  
@@ -195,7 +195,7 @@ h3{
   height: $h1 + 6em;  
 }
 
-//space for icon in the middle of each hourglass
+//HOURGLASS WRAPPER_space for icon at the center of the hourglass
 
 .preamble p:nth-of-type(3),
 .participation p:nth-of-type(3){
