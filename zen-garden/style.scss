@@ -32,12 +32,28 @@ footer {
 #design-archives nav ul{
   display:flex;
   flex-direction:row-reverse;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+#design-selection ul{
+  @include MQ(L) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    li {
+      justify-self: center;
+    }
+  }
 }
 .indicator
 // Resources
-.resources {
+#zen-resources h3 {
   display: none;
+}
+#zen-resources ul {
+  @include MQ(L) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
 }
 
 // Dividing Line
@@ -61,6 +77,12 @@ h1, h2, .select {
 #zen-summary {
   text-align: center;
 }
+
+
+
+
+
+
 
 //---------------Hourglass wrapping rules--------------------
 
