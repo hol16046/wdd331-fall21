@@ -4,7 +4,6 @@
 $h1: 20em; // height based on typography --works non responsively at 400px viewport width
 $hh1: 80vw; //height based on viewport width --testing, it gets messed up if viewport is different than 400px wide--
 $w1: 30vw;
-$t1area: 240vw;//constant area creates an inverse relation between height and width
 
 //HOURGLASS WRAPPER_text styling for hourflass wrapping
 
@@ -100,30 +99,30 @@ h3{
 }
 
 //HOURGLASS WRAPPER_TOP OF HOURGLASS Dimensions of triangle wrapper
-//CAUTION: THESE ONLY WORK AT A VIEWPORT WIDTH OF 400PX 
+//CAUTION: THESE ONLY WORK AT VIEWPORT WIDTH between 340Ppx and 480px. Changing the font family will break it. 
 .preamble p:nth-of-type(1):before{
   //height: $h1 + 2em;  
-  height: 80vw;
+  height: calc(42em - $hh1); //this calc operation makes the height of the triangle decrease as the viewport width increases, and vicervesa. 
 }
 
 .preamble h3:after{
-  height: $h1 + -2em;
+  height: calc(37em - $hh1);
 }
 
 .participation p:nth-of-type(1):before{
-  height: $h1 + 11em;  
+  height: calc(53em - $hh1);
 }
 
 .participation h3:after{
-  height: $h1 + 8em;
+  height: calc(47em - $hh1);
 }
 
 .requirements p:nth-of-type(1):before{
-  height: $h1 + 10em;  
+  height: calc(53.5em - $hh1);  
 }
 
 .requirements h3:after{
-  height: $h1 + 7em;
+  height: calc(47.5em - $hh1);
 }
 
 //HOURGLASS WRAPPER_BOTTOM OF HOURGLASS Dimensions of triangle wrapper
