@@ -20,12 +20,41 @@ $L:     1024px;
   }
 }
 
+#zen-preamble, #zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+  @include MQ(L) {
+    margin-left: 85px;
+  }
+}
+
+
 /* Menus */
 //Footer
 footer {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+  @include MQ(L) {
+    position: fixed;
+    width: 75px;
+    z-index: 1;
+    top: 250px;
+    left: 0;
+    background-color: #A1B5A8; //$color-4
+    overflow-x: hidden;
+    padding: 10px 0; 
+    display: block;
+    a {
+      padding: 5px 10px 5px 15px;
+      text-decoration: none;
+      display: block;
+    }
+  }
+}
+
+.sidebar {
+  @include MQ(L) {
+    display: inline-block;
+  }
 }
 
 // Selection/Archives
@@ -35,12 +64,27 @@ footer {
 #design-archives nav ul{
   display:flex;
   flex-direction:row-reverse;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
-.indicator
+#design-selection ul{
+  @include MQ(L) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    li {
+      justify-self: center;
+    }
+  }
+}
 // Resources
-.resources {
+#zen-resources h3 {
   display: none;
+}
+#zen-resources ul {
+  @include MQ(L) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
 }
 
 // Dividing Line
@@ -51,6 +95,9 @@ footer {
   background-color: red;
   display: inline-block;
   content: "";
+  @include MQ(L) {
+    display: none;
+  }
 }
 
 
