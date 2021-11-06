@@ -1,5 +1,5 @@
 /* Partials */
-@import 'partials/hourglass-wrapper';
+// @import 'partials/hourglass-wrapper';
 
 /* Variables */
 
@@ -7,20 +7,26 @@
 /* Layout */
 
 // breakpoints
-$S:     768px;   
-$L:     1024px; 
+$S: 768px;
+$L: 1024px;
 
 // media queries
 @mixin MQ($canvas) {
-  @if $canvas == S {
-   @media only screen and (min-width: $S) { @content; } 
+  @if $canvas==S {
+    @media only screen and (min-width: $S) {
+      @content;
+    }
   }
-  @else if $canvas == L {
-   @media only screen and (min-width: $L) { @content; } 
+
+  @else if $canvas==L {
+    @media only screen and (min-width: $L) {
+      @content;
+    }
   }
 }
 
-#zen-preamble, #zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+#zen-preamble,
+#zen-supporting {
   @include MQ(L) {
     margin-left: 85px;
   }
@@ -33,6 +39,7 @@ footer {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+
   @include MQ(L) {
     position: fixed;
     width: 75px;
@@ -41,8 +48,9 @@ footer {
     left: 0;
     background-color: #A1B5A8; //$color-4
     overflow-x: hidden;
-    padding: 10px 0; 
+    padding: 10px 0;
     display: block;
+
     a {
       padding: 5px 10px 5px 15px;
       text-decoration: none;
@@ -53,48 +61,56 @@ footer {
 
 .sidebar {
   @include MQ(L) {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
 // Selection/Archives
 .archives {
-  display:none;
+  display: none;
 }
-#design-archives nav ul{
-  display:flex;
-  flex-direction:row-reverse;
+
+#design-archives nav ul {
+  display: flex;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
 }
-#design-selection ul{
+
+#design-selection ul {
   @include MQ(L) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
     li {
       justify-self: center;
     }
   }
 }
+
 // Resources
 #zen-resources h3 {
   display: none;
 }
+
 #zen-resources ul {
   @include MQ(L) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
+    margin-top: 50px;
   }
 }
 
 // Dividing Line
-.design-selection:before, 
+.design-selection:before,
 #zen-resources:before {
   width: 100%;
   height: 5px;
   background-color: red;
   display: inline-block;
   content: "";
+
   @include MQ(L) {
     display: none;
   }
@@ -105,10 +121,13 @@ footer {
 ul li {
   list-style-type: none;
 }
-h1, h2, .select {
-  text-align: center;
-}
-#zen-summary {
+
+h1,
+h2,
+.select {
   text-align: center;
 }
 
+#zen-summary {
+  text-align: center;
+}
