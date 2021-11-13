@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Martel:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Martel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
 
-$primary-font: 'Bellefair', serif;
+$primary-font: 'Cherry Swash', serif;
 $secondary-font: 'Martel', sans-serif;
 
 
 h1, h2, h3 {
   font-family: $secondary-font;
   color: $color-2;
+  font-weight: 900;
 }
 
 h1 {
   font-size: 2.4rem;
-  font-weight: 300;
   line-height: 1.2;
   margin: 0 0 0.4em;
 
@@ -26,7 +26,6 @@ h1 {
 }
 
 h2 {
-  font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0;
 
@@ -37,7 +36,6 @@ h2 {
 }
 
 h3 {
-  font-weight: bold;
   text-transform: uppercase;
   font-size: 1.25rem;
   margin: 1.3em 0 .3em 0;
@@ -49,16 +47,22 @@ p {
   color: lighten($color-2, 15%);
   margin: 0 0 .5em 0;
   font-family: $primary-font;
-  font-weight: bold;
 
   a {
     font-family: $primary-font;
     color: $color-1;
     text-decoration: underline;
+    font-weight: 400;
   }
 
   // @include MQ(S) {
   //   font-size: 1.6rem;
   //   line-height: 1.6;
   // }
+}
+
+a {
+  font-family: $secondary-font;
+  font-weight: bold;
+  color: $color-2;
 }
