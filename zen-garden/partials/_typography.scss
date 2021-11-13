@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Martel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Martel:wght@900&display=swap');
+
+$primary-font: 'Bellefair', serif;
+$secondary-font: 'Martel', sans-serif;
+
+
+h1, h2, h3 {
+  font-family: $secondary-font;
+  color: $color-2;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+
+  // @include MQ(S) {
+  //   font-size: 3.2rem;
+  // }
+
+  // @include MQ(M) {
+  //   font-size: 4rem;
+  // }
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0;
+
+  // @include MQ(S) {
+  //   font-size: 1.8rem;
+  //   margin: 1em 0 1.4em;
+  // }
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: lighten($color-2, 15%);
+
+  a {
+    color: $color-1;
+    text-decoration: underline;
+  }
+
+  // @include MQ(S) {
+  //   font-size: 1.6rem;
+  //   line-height: 1.6;
+  // }
+}

@@ -1,0 +1,27 @@
+/* Layout */
+
+// breakpoints
+$S: 768px;
+$L: 1024px;
+
+// media queries
+@mixin MQ($canvas) {
+  @if $canvas==S {
+    @media only screen and (min-width: $S) {
+      @content;
+    }
+  }
+
+  @else if $canvas==L {
+    @media only screen and (min-width: $L) {
+      @content;
+    }
+  }
+}
+
+#zen-preamble,
+#zen-supporting {
+  @include MQ(L) {
+    margin-left: 85px;
+  }
+}
