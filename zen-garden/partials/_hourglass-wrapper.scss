@@ -1,8 +1,7 @@
 //---------------Hourglass wrapping rules--------------------
 
 //HOURGLASS WRAPPER_variables for triangle shape on each side of the text
-$h1: 20em; // height based on typography --works non responsively at 400px viewport width
-$hh1: 80vw; //height based on viewport width --testing, it gets messed up if viewport is different than 400px wide--
+$h1: 80vw; //height based on viewport width 
 $w1: 30vw;
 
 //HOURGLASS WRAPPER_text styling for hourflass wrapping
@@ -42,7 +41,7 @@ h3{
   background-color: blue;
   width: $w1;
   shape-outside: polygon(0 0, 0% 100%, 100% 100%);
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 
@@ -88,6 +87,7 @@ h3{
 .requirements p:nth-of-type(3):before{
   shape-outside: polygon(0 0, 0 100%, 100% 0);  
   float: left;
+  background-color: red;  //erase when done creating the mediaqueries
 }
 
 //HOURGLASS WRAPPER_bottom RIGHT of hourglass
@@ -96,55 +96,119 @@ h3{
 .requirements p:nth-of-type(2):after{
   shape-outside: polygon(0 0, 100% 100%, 100% 0);  
   float: right;
+  background-color: red;  //erase when done creating the mediaqueries
 }
 
 //HOURGLASS WRAPPER_TOP OF HOURGLASS Dimensions of triangle wrapper
-//CAUTION: THESE ONLY WORK AT VIEWPORT WIDTH between 340Ppx and 480px. Changing the font family will break it. 
-.preamble p:nth-of-type(1):before{
-  //height: $h1 + 2em;  
-  height: calc(42em - $hh1); //this calc operation makes the height of the triangle decrease as the viewport width increases, and vicervesa. 
+.preamble p:nth-of-type(1):before{  
+  height: calc(44rem - 90vw); //this calc operation makes the height of the triangle decrease as the viewport width increases, and vicervesa. 
+  
+  @include MQ(M){ //as the viewport widens, both rem and vw must decrease for the tiangle to adapt and preserve the glass wrapping
+    height: calc(26rem - 29vw);
+  }
+
+  @include MQ(S){
+    height: calc(23rem - 6vw);
+  }
 }
 
 .preamble h3:after{
-  height: calc(37em - $hh1);
+  height: calc(50rem - 112vw);
+
+  @include MQ(M){
+    height: calc(23rem - 14vw);
+  }
+
+  @include MQ(S){
+    height: calc(26rem - 8vw);
+  }
 }
 
 .participation p:nth-of-type(1):before{
-  height: calc(53em - $hh1);
+  height: calc(60rem - 100vw);
+
+  @include MQ(M1){ 
+    height: calc(54rem - 78vw);
+  }
+
+  @include MQ(S){
+    height: calc(48rem - 32vw);
+  }
 }
 
 .participation h3:after{
-  height: calc(47em - $hh1);
+  height: calc(66rem - 120vw);
+
+  @include MQ(M1){
+    height: calc(63rem - 95vw);
+  }
+
+  @include MQ(S){
+    height: calc(53rem - 35vw);
+  }
 }
 
-.requirements p:nth-of-type(1):before{
-  height: calc(53.5em - $hh1);  
-}
+//  MOMENTARILY ELIMINATED THE HOURGLASS SHAPE FROM THE REQUIREMENTS PARAGRAPH BECAUSE THE BOTTOM PART OF THE SHAPE INVADES THE TOP WHEN DRAGGING THE VIEWPORT WIDTH. COULDNT FIND A WAY TO AVOID THIS, SO I'M REMOVING THE WRAPPING FOR NOW. TO ENABLE THE WRAPPING AGAIN, JUST REMOVE THE COMMENT FROM THE RULES BELOW:
+// .requirements p:nth-of-type(1):before{
+//   height: calc(62rem - 100vw);
 
-.requirements h3:after{
-  height: calc(47.5em - $hh1);
-}
+//   @include MQ(M1){ 
+//     height: calc(54rem - 78vw);
+//   }
+
+//   @include MQ(S){
+//     height: calc(48rem - 32vw);
+//   }
+// }
+
+// .requirements h3:after{
+//   height: calc(67rem - 120vw);
+
+//   @include MQ(M1){
+//     height: calc(63rem - 95vw);
+//   }
+
+//   @include MQ(S){
+//     height: calc(53rem - 35vw);
+//   }
+// }
 
 //HOURGLASS WRAPPER_BOTTOM OF HOURGLASS Dimensions of triangle wrapper
 //CAUTION: THESE ONLY WORK AT A VIEWPORT WIDTH OF 400PX 
 .explanation p:nth-of-type(1):before{
-  height: $h1 + 3em;  
+  height: calc(48rem - 78vw);  
+
+  @include MQ(M1){
+    height: calc(35rem - 45vw);
+  }
+
+  @include MQ(S){
+    height: calc(29rem - 5vw);
+  }
 }
 .explanation h3:after{
-  height: $h1 + 2em; 
+  height: calc(48rem - 71vw);
+
+  @include MQ(M1){
+    height: calc(35rem - 40vw);
+  }
+
+  @include MQ(S){
+    height: calc(29rem - 3vw);
+  }
 }
-.benefits p:nth-of-type(1):before{
-  height: $h1 + -9em; 
+.benefits p:nth-of-type(1):before{ //Pending to measure the MQ breakpoints for .benefits
+  height: calc(3em + $h1);
 }
 .benefits h3:after{
-  height: $h1 + -8.5em; 
+  height: calc(3em + $h1);
 }
-.requirements p:nth-of-type(3):before{
-  height: $h1 + 3em;  
-}
-.requirements p:nth-of-type(2):after{
-  height: $h1 + 6em;  
-}
+// .requirements p:nth-of-type(3):before{
+//   height: calc(3em + $h1); 
+// }
+// .requirements p:nth-of-type(2):after{
+//   height: calc(3em + $h1);  
+// }
 
 //HOURGLASS WRAPPER_space for icon at the center of the hourglass
 
@@ -155,5 +219,7 @@ h3{
 .requirements p:nth-of-type(2){
   margin-bottom: 3em;
 }
+
+
 
 

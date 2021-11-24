@@ -1,12 +1,40 @@
 /* Layout */
 
-// breakpoints
-$S: 768px;
-$L: 1024px;
+// main breakpoints
+$S: 768px; //S stands for Small
+$L: 1024px; //L stands for Large
+            //M stands for "mobile"
+//mini breakpoints for the hourglass shape
+$M: 490px;    //breakpoint for top hourglass of class .preamble
+$M1: 605px;   //breakpoint for top hourglass of class .participation
+$M2: 713px;   //breakpoint for bottom hourglass of class .explanation
+
+$S2: 950px;   // placeholder - currently not in use
+$L1: 1100px;  // placeholder - currently not in use 
+$L2: 1200px;  // placeholder - currently not in use
+$L3: 1300px;  // placeholder - currently not in use
 
 // media queries
 @mixin MQ($canvas) {
-  @if $canvas==S {
+  @if $canvas==M {
+    @media only screen and (min-width: $M) {
+      @content;
+    }
+  }
+
+  @else if $canvas==M1 {
+    @media only screen and (min-width: $M1) {
+      @content;
+    }
+  }
+
+  @else if $canvas==M2 {
+    @media only screen and (min-width: $M2) {
+      @content;
+    }
+  }
+
+  @else if $canvas==S {
     @media only screen and (min-width: $S) {
       @content;
     }

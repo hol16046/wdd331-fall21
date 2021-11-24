@@ -42,8 +42,8 @@ h3 {
 }
 
 p {
-  font-size: 1.2rem;
-  line-height: 1.4;
+  font-size: .9rem; 
+  line-height: 1.2;
   color: lighten($color-2, 15%);
   margin: 0 0 .5em 0;
   font-family: $primary-font;
@@ -55,10 +55,10 @@ p {
     font-weight: 400;
   }
 
-  // @include MQ(S) {
-  //   font-size: 1.6rem;
-  //   line-height: 1.6;
-  // }
+  @include MQ(S) {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
 }
 
 a {
