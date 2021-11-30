@@ -3,14 +3,15 @@
 // main breakpoints
 $S: 768px; //S stands for Small
 $L: 1024px; //L stands for Large
-            //M stands for "mobile"
-//mini breakpoints for the hourglass shape
+            
+//mini breakpoints for the hourglass shape 
+//M stands for "mobile"
 $M: 490px;    //breakpoint for top hourglass of class .preamble
 $M1: 605px;   //breakpoint for top hourglass of class .participation
 $M2: 713px;   //breakpoint for bottom hourglass of class .explanation
+$L1: 1100px;  // breakpoint for triangle wrapper width
 
 $S2: 950px;   // placeholder - currently not in use
-$L1: 1100px;  // placeholder - currently not in use 
 $L2: 1200px;  // placeholder - currently not in use
 $L3: 1300px;  // placeholder - currently not in use
 
@@ -45,6 +46,12 @@ $L3: 1300px;  // placeholder - currently not in use
       @content;
     }
   }
+
+  @else if $canvas==L1 {
+    @media only screen and (min-width: $L1) {
+      @content;
+    }
+  }
 }
 
 #zen-preamble,
@@ -52,4 +59,9 @@ $L3: 1300px;  // placeholder - currently not in use
   @include MQ(L) {
     margin-left: 85px;
   }
+}
+
+.page-wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
 }
