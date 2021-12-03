@@ -144,11 +144,11 @@ h3{
   }
 
   @include MQ(S){
-    height: calc(48rem - 32vw);
+    height: calc(51rem - 32vw);
   }
   
   @include MQ(L1){
-    height: 440px;
+    height: 470px;
   }
 }
 
