@@ -4,21 +4,40 @@
     display: inline;
     float: right;
     clear: both;
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
+    top: 500px;
+    right: 75px; 
+    opacity: 0; 
     z-index: -1;
-    background-size: 150px 150px;
+    background-size: 75px 75px;
     background-image: url("https://raw.githubusercontent.com/hol16046/wdd331-fall21/c97dab0937f0a6deb7d451419aa3a7f4742e5b0e/zen-garden/assets/logo-red.svg");
     background-repeat: no-repeat;
     position:fixed;
-    top: 500px;
-    right: 75px; 
-    opacity: 0;   
     
-    //shorthand animation:
+    @include MQ(M){
+      height: 110px;
+      width: 110px;      
+      background-size: 110px 110px;
+    }
+
+    @include MQ(S){
+      height: 150px;
+      width: 150px;
+      top: 500px;
+      right: 75px; 
+      background-size: 150px 150px;
+    }
+
+    @include MQ(L){
+      right: 200px;
+    }
+    
+    //shorthand animations (pulse and float):
     -webkit-animation: pulse 0.5s 2.5s forwards, float 6s 3s ease-in-out infinite;
     animation: pulse 0.5s 2.5s forwards, float 4s 3.5s ease-in-out infinite;
 
+    //shorthand animation (only pulse):
     // -webkit-animation: pulse 0.5s 2.5s forwards;
     // animation: pulse 0.5s 2.5s forwards;
 
