@@ -8,16 +8,18 @@ $decorative-font1: 'BioRhyme Expanded', serif;
 $decorative-font2: 'Cinzel', serif;
 $decorative-font3: 'Ultra', serif;
 
-h1, h2, h3 {
-  font-family: $secondary-font;
+h1, h2, h3 {  
   color: $color-2;
   font-weight: 900;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-family: $decorative-font2;
+  transform: scaleY(2);
+  text-transform: uppercase;
+  font-size: 4.4rem;
   line-height: 1.2;
-  margin: 0 0 0.4em;
+  margin: 1rem 0 .7rem 0;
 
   // @include MQ(S) {
   //   font-size: 3.2rem;
@@ -29,8 +31,10 @@ h1 {
 }
 
 h2 {
+  font-family: $decorative-font1;
   text-transform: uppercase;
   margin: 1em 0;
+  text-decoration: underline $color-2 5px;
 
   // @include MQ(S) {
   //   font-size: 1.8rem;
@@ -39,6 +43,7 @@ h2 {
 }
 
 h3 {
+  font-family: $secondary-font;
   text-transform: uppercase;
   font-size: 1.25rem;
   margin: 1.3em 0 .3em 0;
@@ -68,4 +73,22 @@ a {
   font-family: $secondary-font;
   font-weight: bold;
   color: $color-2;
+}
+
+abbr{
+  text-decoration: none;
+}
+
+p abbr:nth-of-type(1){
+  font-family: $decorative-font3;
+}
+p abbr:nth-of-type(2){
+  font-family: $primary-font;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+p abbr:nth-of-type(3){
+  font-family: $decorative-font1;
+  font-weight: bold;
 }

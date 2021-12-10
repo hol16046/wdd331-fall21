@@ -78,5 +78,16 @@
     }
   }
 
+  @-webkit-keyframes float {
+    0% {        
+      transform: translatey(0px) rotate(-15deg) scale(1) rotate3d(0);
+    }
+    50% {      
+      transform: translatey(-30px) rotate(-2deg) scale(1) rotate3d(1, 1, 1, -45deg);      
+    }
+    100% {
+      transform: translatey(0px) rotate(-15deg) scale(1) rotate3d(0);
+    }
+  }
   
   

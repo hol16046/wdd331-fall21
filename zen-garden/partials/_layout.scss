@@ -55,6 +55,9 @@ $L3: 1300px;  // placeholder - currently not in use
 }
 
 #zen-preamble,
+#zen-intro h1,
+#zen-intro h2,
+#zen-summary,
 #zen-supporting {
   @include MQ(L) {
     margin-left: 85px;
@@ -65,3 +68,4 @@ $L3: 1300px;  // placeholder - currently not in use
   max-width: 1100px;
   margin: 0 auto;
 }
+
