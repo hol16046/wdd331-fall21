@@ -1,0 +1,64 @@
+
+#zen-explanation p:last-child::before {
+    content: "";
+    display: inline;
+    float: right;
+    clear: both;
+    height: 150px;
+    width: 150px;
+    z-index: -1;
+    background-size: 150px 150px;
+    background-image: url("https://raw.githubusercontent.com/hol16046/wdd331-fall21/c97dab0937f0a6deb7d451419aa3a7f4742e5b0e/zen-garden/assets/logo-red.svg");
+    background-repeat: no-repeat;
+    position:relative;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    animation-delay:2.5s;
+    -webkit-animation-delay:2.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    opacity: 0;
+    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    top: -300px;
+    right: 10px;
+    // @include MQ(S) {
+    //     top: 2rem;
+    //     left: 220px;
+    // }
+    // @include MQ(L) {
+    //     top: -125px;
+    //     left:800px;
+    // }
+}
+
+@keyframes pulse {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity:.50;
+        transform-origin: 50% 50%;
+        transform: rotate(-2deg) scale(5);
+        transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    }
+    100%{
+        opacity:70%;
+        transform: rotate(-15deg) scale(1);
+    }
+}
+@-webkit-keyframes pulse {
+    0%{
+      opacity: 0;
+    }
+    10%{
+      opacity:.50;
+      transform-origin: 50% 50%;
+      transform: rotate(-2deg) scale(5);
+      transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    }
+    100%{
+      opacity:70%;
+      transform: rotate(-15deg) scale(1);
+    }
+  }

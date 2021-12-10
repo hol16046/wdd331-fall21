@@ -75,6 +75,7 @@ h3{
 .requirements p:nth-of-type(1):before{
   shape-outside: polygon(0 0, 0% 100%, 100% 100%);
   float: left;  
+  // background-color: red; //enable when doing maintenance on the hourglass wrapper
 }
 //HOURGLASS WRAPPER_top RIGHT of hourglass
 
@@ -83,6 +84,7 @@ h3{
 .requirements h3:after{
   shape-outside: polygon(100% 0, 0% 100%, 100% 100%);  
   float: right;
+  // background-color: red; //enable when doing maintenance on the hourglass wrapper 
 }
 
 //HOURGLASS WRAPPER_bottom LEFT of hourglass
