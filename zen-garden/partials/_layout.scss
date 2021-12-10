@@ -58,7 +58,10 @@ $L3: 1300px;  // placeholder - currently not in use
 #zen-intro h1,
 #zen-intro h2,
 #zen-summary,
-#zen-supporting {
+#zen-supporting,
+#design-selection,
+#design-archives,
+#zen-resources {
   @include MQ(L) {
     margin-left: 85px;
   }
