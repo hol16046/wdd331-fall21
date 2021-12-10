@@ -24,8 +24,7 @@ h3{
 
 //HOURGLASS WRAPPER_separator between hourglass shapes
 .preamble h3:before,
-.participation h3:before,
-.requirements h3:before{
+.participation h3:before{
   width: 100%;
   height: 5px;
   background-color: grey;
@@ -281,10 +280,10 @@ h3{
   .requirements {
     background: #fafafa;
     box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 0 300px 25px rgba(222,198,122,0.7) inset;
-    width: 900px;
-    height: 700px;
+    width: 800px;
+    height: 790px;
     margin: 1.5% auto;  
-    padding: 24px;
+    padding: 30px 30px 30px 60px;
     position: relative;
     transform: rotate(5deg);
     transition: 500ms ease-out;

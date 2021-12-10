@@ -10,7 +10,7 @@
     background-size: 150px 150px;
     background-image: url("https://raw.githubusercontent.com/hol16046/wdd331-fall21/c97dab0937f0a6deb7d451419aa3a7f4742e5b0e/zen-garden/assets/logo-red.svg");
     background-repeat: no-repeat;
-    position:relative;
+    position:fixed;
     -webkit-animation-name: pulse;
     animation-name: pulse;
     animation-delay:2.5s;
@@ -20,16 +20,9 @@
     opacity: 0;
     -webkit-animation-fill-mode:forwards;
     animation-fill-mode:forwards;
-    top: -775px;
-    right: 10px;
-    // @include MQ(S) {
-    //     top: 2rem;
-    //     left: 220px;
-    // }
-    // @include MQ(L) {
-    //     top: -125px;
-    //     left:800px;
-    // }
+    top: 500px;
+    right: 75px;
+    
 }
 
 @keyframes pulse {
