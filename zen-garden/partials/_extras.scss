@@ -160,16 +160,34 @@
 
   #zen-supporting::before {
     content: "";
-    display: block;
-    position: absolute;
-    height: 75px;
-    width: 75px; 
-    top: 650px;
+    display: inline-block;
+    position: fixed;
+    height: 60px;
+    width: 60px; 
+    top: 450px;
     left: 0;
-    margin: 15px auto;
-    background-size: 75px 75px;
-    background-image: url("https://raw.githubusercontent.com/hol16046/wdd331-fall21/5a7ec510918f19fadb82ae1516d780c94c47a14f/zen-garden/assets/alohomora-blue.svg");
+    margin: 15px 0 0 15px;;
+    background-size: 60px 60px;
+    background-image: url("https://raw.githubusercontent.com/hol16046/wdd331-fall21/11e42a33228d40171f171de753d83fc03041b0f3/zen-garden/assets/point.svg");
     background-repeat: no-repeat;
-    -webkit-filter: drop-shadow( 2px 2px 1px rgba(0, 0, 0, .4));
-    filter: drop-shadow( 2px 2px 1px rgba(0, 0, 0, .4));
+    animation: point 2s linear;
+  }
+
+
+  #zen-supporting::before:hover {
+    animation: point 2s linear;
+  }
+  @keyframes point {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(-359deg);
+    }
+  }
+  @-webkit-keyframes point {
+    from {
+      transform: rotate(0deg);
+    } to {
+      transform: rotate(-359deg);
+    }
   }
