@@ -113,3 +113,19 @@ p abbr:nth-of-type(3){
 .zen-license {
   font-family: $decorative-font1;
 }
+
+.zen-license:hover {
+  font-family: $decorative-font2;
+  color: $color-1;
+  transition: 0.5s;
+}
+.zen-validate-css:hover, .zen-accessibility:hover {
+  font-family: $decorative-font1;
+  color: $color-1;
+  transition: 0.5s;
+}
+.zen-validate-html:hover, .zen-github:hover {
+  font-family: $decorative-font3;
+  color: $color-1;
+  transition: 0.5s;
+}

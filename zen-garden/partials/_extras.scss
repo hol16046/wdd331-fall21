@@ -157,35 +157,36 @@
   }
 
 
+  // Pointing Hand
 
-  #zen-supporting::before {
-    @include MQ(L) {
-      content: "";
-      display: inline-block;
-      position: fixed;
-      height: 60px;
-      width: 60px; 
-      top: 450px;
-      left: 0;
-      margin: 20px 0 0 15px;;
-      background-size: 60px 60px;
-      background-image: url("https://raw.githubusercontent.com/hol16046/wdd331-fall21/b85411ca4c9538434d0114ad945ad61f1da6c3fa/zen-garden/assets/point.svg");
-      background-repeat: no-repeat;
-      animation: point 3s linear;
-    }
-  }
+  // #zen-supporting::before {
+  //   @include MQ(L) {
+  //     content: "";
+  //     display: inline-block;
+  //     position: fixed;
+  //     height: 60px;
+  //     width: 60px; 
+  //     top: 450px;
+  //     left: 0;
+  //     margin: 20px 0 0 15px;;
+  //     background-size: 60px 60px;
+  //     background-image: url("https://raw.githubusercontent.com/hol16046/wdd331-fall21/b85411ca4c9538434d0114ad945ad61f1da6c3fa/zen-garden/assets/point.svg");
+  //     background-repeat: no-repeat;
+  //     animation: point 3s linear;
+  //   }
+  // }
 
-  @keyframes point {
-    from {
-      transform: rotate(0deg);
-    } to {
-      transform: rotate(-359deg);
-    }
-  }
-  @-webkit-keyframes point {
-    from {
-      transform: rotate(0deg);
-    } to {
-      transform: rotate(-359deg);
-    }
-  }
+  // @keyframes point {
+  //   from {
+  //     transform: rotate(0deg);
+  //   } to {
+  //     transform: rotate(-359deg);
+  //   }
+  // }
+  // @-webkit-keyframes point {
+  //   from {
+  //     transform: rotate(0deg);
+  //   } to {
+  //     transform: rotate(-359deg);
+  //   }
+  // }
