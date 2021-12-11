@@ -103,3 +103,13 @@ p abbr:nth-of-type(3){
   font-family: $decorative-font1;
   font-weight: bold;
 }
+
+.zen-validate-html, .zen-github {
+  font-family: $decorative-font2;
+}
+.zen-validate-css, .zen-accessibility {
+  font-family: $decorative-font3;
+}
+.zen-license {
+  font-family: $decorative-font1;
+}

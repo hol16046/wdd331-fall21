@@ -19,11 +19,11 @@ body {
       z-index: 1;
       top: 250px;
       left: 0;
-      background-color: $color-4;
+      background-color: lighten($color-4, 8%);
       overflow-x: hidden;
-      padding: 10px 0;
+      padding: 10px 5px;
       display: block;
-  
+      
       a {
         padding: 5px 10px 5px 15px;
         text-decoration: none;
@@ -103,4 +103,8 @@ body {
   
   #zen-summary {
     text-align: center;
+  }
+
+  #zen-explanation, #zen-benefits {
+    margin-top: -75px;
   }
